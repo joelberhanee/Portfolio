@@ -5,11 +5,11 @@
 }
 
 .profile-image {
-    width: 200px;  /* Anpassa storleken efter behov */
-    height: auto;  /* Behåller bildens proportioner */
-    border-radius: 50%;  /* Gör bilden cirkulär */
-    margin: 1em auto;  /* Centrera bilden horisontellt */
-    display: block;  /* Gör bilden en blocknivåelement så att margin: auto fungerar */
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 1em auto;
+    display: block;
 }
 
 ol, ul {
@@ -59,11 +59,11 @@ body {
 .main {
     flex: 1 0 auto;
     padding: 1em;
-    max-width: 800px; /* Sätt en maxbredd på textrutan */
+    max-width: 800px;
     border-radius: 10px;
-    margin: 2em auto; /* Lägg till luft (marginal) ovanför och under */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Lägg till skugga runt main */
-    background-color: beige; /* Sätt bakgrundsfärg om du vill att skuggan ska synas tydligare */    
+    margin: 2em auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: beige;
 }
 
 .header, .footer {
@@ -86,12 +86,12 @@ body {
 .title, .logo {
     padding: 2em 3em 2em 0;
 }
-/* Styla loggan */
+
 .logo {
-    width: 250px;  /* Justera storleken efter behov */
-    height: auto;  /* Bevarar proportionerna */
+    width: 250px;
+    height: auto;
     display: block;
-    margin: 0 auto; /* Centrera loggan horisontellt om det behövs */
+    margin: 0 auto;
 }
 
 
