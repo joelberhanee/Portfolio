@@ -1,36 +1,71 @@
 * {
     box-sizing: border-box;
-    border: 0 none;
     margin: 0;
     padding: 0;
 }
 
 ol, ul {
     padding-left: 1.5em;
+    list-style-type: disc;
+}
+
+li a {
+    background-color: aqua;
+    color: #222;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+li:first-child a {
+    background-color: yellow;
+}
+
+li:last-child a {
+    background-color: green;
+}
+
+li a:hover {
+    background-color: #0056b3;
+    color: #fff;
+    transform: scale(1.05);
 }
 
 .hidden {
     display: none !important;
 }
 
+.social {
+    text-decoration: none;
+}
+
 html, body {
     height: 100%;
+    font-family: Arial, sans-serif;
 }
 
 /* Placement */
 
 body {
-    background-color: pink;
+    background-color: #f8e8e8;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
 }
 
 .main {
     flex: 1 0 auto;
+    padding: 1em;
 }
 
 .header, .footer {
     flex: 0 0 auto;
+    padding: 1em;
+    background-color: #222;
+    color: #fff;
 }
 
 /* Header */
@@ -38,17 +73,18 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
 }
 
-/* Title */
-
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 3em 2em 0;
 }
 
 @media (max-width: 767px) {
     .title, .logo {
-        padding: 1em 1em 1em 0;
+        padding: 1em 0;
     }
     .title {
         min-width: 50%;
@@ -59,11 +95,12 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #fff;
 }
 
 .title p {
     font-style: italic;
+    color: #ccc;
 }
 
 /* Footer */
@@ -71,24 +108,25 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    align-items: center;
+    border-top: 1px solid #555;
 }
 
 .footer a {
-    color: #222;
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #fff;
 }
 
 .footer .social {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
-/* Typografy */
-
-body {
-    font-family: sans-serif;
-    line-height: 1.5rem;
-    color: #444;
-}
+/* Typografi */
 
 p, td, th, li, dd {
     text-align: justify;
@@ -99,15 +137,16 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: #222;
 }
 
 img {
     max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
-
-/* Code */
+/* Kod */
 
 code {
     margin: 0 0.1em;
@@ -117,31 +156,29 @@ code {
     background: #f5f5f5;
     font-family: monospace;
     font-size: 0.85rem;
-    line-height: 1.9824;
+    line-height: 1.8;
 }
 
 pre {
-    padding: 0 1em;
+    padding: 1em;
     border: 1px solid #ccc;
     border-radius: 0.3em;
     background: #f5f5f5;
+    overflow-x: auto;
 }
 
 pre code {
     display: block;
-    margin: 0;
-    padding: 1.1111em 0;
-    border: 0 none;
+    padding: 0;
     background: transparent;
-    overflow-x: auto;
-    line-height: 1.4;
 }
 
-/* Blockquote */
+/* Citat */
 
 blockquote {
     font-style: italic;
     margin-left: 1em;
     padding-left: 1em;
-    border-left: 0.5em solid #f5f5f5;
+    border-left: 4px solid #ddd;
+    color: #666;
 }

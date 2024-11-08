@@ -6,6 +6,8 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Hej!
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag heter Joel Berhane, 24 år och studerar kurspaketet "Webbprogrammering och databaser" på distans hos BTH. 
+
+Nu är vi inne på kursen Design. Mitt mål är att bli så bra som möjligt på att designa samt koda. Detta är hem sida i min portfölj.
