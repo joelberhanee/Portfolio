@@ -4,26 +4,26 @@
     padding: 0;
 }
 
+.profile-image {
+    width: 200px;  /* Anpassa storleken efter behov */
+    height: auto;  /* Behåller bildens proportioner */
+    border-radius: 50%;  /* Gör bilden cirkulär */
+    margin: 1em auto;  /* Centrera bilden horisontellt */
+    display: block;  /* Gör bilden en blocknivåelement så att margin: auto fungerar */
+}
+
 ol, ul {
     padding-left: 1.5em;
     list-style-type: disc;
 }
 
 li a {
-    background-color: aqua;
+    background-color: beige;
     color: #222;
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-li:first-child a {
-    background-color: yellow;
-}
-
-li:last-child a {
-    background-color: green;
 }
 
 li a:hover {
@@ -48,7 +48,7 @@ html, body {
 /* Placement */
 
 body {
-    background-color: #f8e8e8;
+    background-color: beige;
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -59,6 +59,11 @@ body {
 .main {
     flex: 1 0 auto;
     padding: 1em;
+    max-width: 800px; /* Sätt en maxbredd på textrutan */
+    border-radius: 10px;
+    margin: 2em auto; /* Lägg till luft (marginal) ovanför och under */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Lägg till skugga runt main */
+    background-color: beige; /* Sätt bakgrundsfärg om du vill att skuggan ska synas tydligare */    
 }
 
 .header, .footer {
@@ -81,6 +86,14 @@ body {
 .title, .logo {
     padding: 2em 3em 2em 0;
 }
+/* Styla loggan */
+.logo {
+    width: 250px;  /* Justera storleken efter behov */
+    height: auto;  /* Bevarar proportionerna */
+    display: block;
+    margin: 0 auto; /* Centrera loggan horisontellt om det behövs */
+}
+
 
 @media (max-width: 767px) {
     .title, .logo {
