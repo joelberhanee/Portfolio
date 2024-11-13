@@ -6428,28 +6428,42 @@ template {
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   font-family: Arial, sans-serif;
 }
 
 body {
-  line-height: 1, 4;
+  line-height: 1.4;
   font-family: "Roboto", serif;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2 {
+  color: #FFFFFF;
+}
+
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   color: #444;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
   list-style-type: disc;
 }
@@ -6495,7 +6509,7 @@ pre code {
 }
 
 body {
-  background-color: beige;
+  background-color: #f5f5dc;
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -6510,10 +6524,11 @@ body {
   border-radius: 10px;
   margin: 2em auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: beige;
+  background-color: #f5f5dc;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
   padding: 1em;
   background-color: #222;
@@ -6521,7 +6536,7 @@ body {
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 .footer {
@@ -6570,7 +6585,7 @@ body {
 }
 
 li a {
-  background-color: beige;
+  background-color: #f5f5dc;
   color: #222;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -6611,14 +6626,24 @@ img {
     margin: 1em auto;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   }
-  p, td, th, li, dd {
+  p,
+  td,
+  th,
+  li,
+  dd {
     text-align: left;
     overflow-wrap: break-word;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-bottom: 0.5em;
   }
-  ol, ul {
+  ol,
+  ul {
     padding-left: 1em;
     list-style-type: disc;
   }
@@ -6646,7 +6671,8 @@ img {
     width: 150px;
     max-width: 100%;
   }
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 0;
   }
   .title {
@@ -6662,7 +6688,7 @@ img {
   }
 }
 body {
-  background-color: beige;
+  background-color: #f5f5dc;
 }
 
 * {
