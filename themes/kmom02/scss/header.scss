@@ -1,0 +1,26 @@
+.header,
+ 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: $secondary-color;
+  flex: 0 0 auto;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 2em 3em 2em 0;
+  color: $link-hover-color;
+}
+
+.title p {
+  font-style: italic;
+}

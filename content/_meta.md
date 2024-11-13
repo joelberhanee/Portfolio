@@ -4,14 +4,14 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/joelberhanee/Portfolio
-      icon: github
+      icon: fab fa-github
     - title: Följ mig på Twitter.
       url: https://twitter.com/
-      icon: twitter
+      icon: fab fa-twitter
     - title: Min LinkedIn-profil.
       url: https://www.linkedin.com/in/
-      icon: linkedin
+      icon: fab fa-linkedin
     - title: Följ mig på Instagram.
       url: https://www.instagram.com/
-      icon: instagram
+      icon: fab fa-instagram
 ---

@@ -33,7 +33,7 @@ li a:hover {
 }
 
 .hidden {
-    display: none !important;
+    display: none;
 }
 
 .social {
@@ -107,7 +107,7 @@ body {
     }
 }
 
-.title * {
+.title {
     color: #fff;
 }
 

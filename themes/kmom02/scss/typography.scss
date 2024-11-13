@@ -1,0 +1,38 @@
+body {
+  line-height: 1.4;
+  font-family: 'Roboto', serif;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  color: $font-color;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+  list-style-type: disc;
+}
+
+.profile-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1em auto;
+  display: block;
+}

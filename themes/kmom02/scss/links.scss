@@ -1,0 +1,18 @@
+li a {
+  background-color: #f5f5dc;
+  color: $secondary-color;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  
+  &:hover {
+    background-color: $primary-color;
+    color: $link-hover-color;
+    transform: scale(1.05);
+  }
+}
+
+.social {
+  text-decoration: none;
+}
