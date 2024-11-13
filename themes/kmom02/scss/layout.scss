@@ -15,14 +15,24 @@ body {
   margin: 2em auto;
   box-shadow: 0 4px 8px $shadow-color;
   background-color: $background-color;
+  color: $font-color;
 }
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  color: $font-color;
+}
+
 
 .header,
 .footer {
   flex: 0 0 auto;
   padding: 1em;
   background-color: $secondary-color;
-  color: $link-hover-color;
 }
 
 .hidden {

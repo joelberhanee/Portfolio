@@ -6449,17 +6449,14 @@ dd {
 }
 
 h1,
-h2 {
-  color: #FFFFFF;
-}
-
+h2,
 h3,
 h4,
 h5,
 h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #444;
+  color: #fff;
 }
 
 ol,
@@ -6525,6 +6522,16 @@ body {
   margin: 2em auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: #f5f5dc;
+  color: #444;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  color: #444;
 }
 
 .header,
@@ -6532,7 +6539,6 @@ body {
   flex: 0 0 auto;
   padding: 1em;
   background-color: #222;
-  color: #fff;
 }
 
 .hidden {
@@ -6546,9 +6552,14 @@ body {
   flex: 0 0 auto;
 }
 
+.footer p {
+  color: #fff;
+}
+
 .footer a {
   text-decoration: none;
   transition: color 0.3s;
+  color: #fff;
 }
 .footer a:hover {
   color: #fff;
@@ -6577,11 +6588,11 @@ body {
 
 .title {
   padding: 2em 3em 2em 0;
-  color: #fff;
 }
 
 .title p {
   font-style: italic;
+  color: #fff;
 }
 
 li a {

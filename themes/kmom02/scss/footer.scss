@@ -5,9 +5,14 @@
   flex: 0 0 auto;
 }
 
+.footer p {
+  color: #fff;
+}
+
 .footer a {
   text-decoration: none;
   transition: color 0.3s;
+  color: #fff;
 
   &:hover {
     color: $link-hover-color;
