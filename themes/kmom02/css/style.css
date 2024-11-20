@@ -6517,7 +6517,7 @@ body {
 .main {
   flex: 1 0 auto;
   padding: 1em;
-  max-width: 800px;
+  max-width: 1200px;
   border-radius: 10px;
   margin: 2em auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -6696,6 +6696,147 @@ img {
   }
   li a {
     width: 80px;
+  }
+}
+.landing-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.landing-page > h1 {
+  grid-column: span 3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box.css {
+  grid-column: span 1;
+}
+
+.box.html {
+  grid-column: span 2;
+}
+
+.box.javascript {
+  grid-column: span 2;
+}
+
+.box.php {
+  grid-column: span 1;
+}
+
+.box.python {
+  grid-column: span 3;
+}
+
+.box.git {
+  grid-column: span 1;
+}
+
+.box.sqlite {
+  grid-column: span 2;
+}
+
+.box {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  color: #333;
+}
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .landing-page {
+    grid-template-columns: 1fr;
+  }
+  .box {
+    grid-column: span 3;
+  }
+  .landing-page > h1 {
+    grid-column: span 3;
+  }
+  .box.css {
+    grid-column: span 3;
+  }
+  .box.html {
+    grid-column: span 3;
+  }
+  .box.javascript {
+    grid-column: span 3;
+  }
+  .box.php {
+    grid-column: span 3;
+  }
+  .box.python {
+    grid-column: span 3;
+  }
+  .box.git {
+    grid-column: span 3;
+  }
+  .box.sqlite {
+    grid-column: span 3;
+  }
+}
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px;
+  gap: 20px;
+}
+
+.technology .menu {
+  width: 20%;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.technology .menu h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.technology .menu a {
+  font-size: 1rem;
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.technology .menu a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .technology {
+    flex-direction: column;
+  }
+  .technology .menu {
+    display: none;
+  }
+  .technology .article {
+    width: 100%;
   }
 }
 body {

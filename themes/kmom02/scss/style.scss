@@ -20,6 +20,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'images';
 @import 'responsiv';
 
+@import 'technology';
+@import 'tech-menu';
+
+
 body {
   background-color: $background-color;
 }
