@@ -20,7 +20,11 @@
   padding: 2em 3em 2em 0;
 }
 
+.title a {
+  text-decoration: none;
+}
+
 .title p {
   font-style: italic;
-  color: #fff;
+  color: $font-color;
 }

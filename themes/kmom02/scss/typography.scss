@@ -1,6 +1,6 @@
 body {
   line-height: 1.4;
-  font-family: 'Roboto', serif;
+  font-family: $font-family;
 }
 
 p,
@@ -10,6 +10,7 @@ li,
 dd {
   text-align: justify;
   overflow-wrap: break-word;
+  color: $font-color;
 }
 
 h1,
@@ -20,7 +21,8 @@ h5,
 h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #fff;
+  color: $font-color;
+  text-decoration: none;
 }
 
 ol,

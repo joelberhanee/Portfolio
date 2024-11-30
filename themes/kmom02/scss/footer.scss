@@ -6,13 +6,13 @@
 }
 
 .footer p {
-  color: #fff;
+  color: $font-color;
 }
 
 .footer a {
   text-decoration: none;
   transition: color 0.3s;
-  color: #fff;
+  color: $font-color;
 
   &:hover {
     color: $link-hover-color;

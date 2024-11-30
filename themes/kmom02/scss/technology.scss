@@ -1,0 +1,102 @@
+.landing-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.landing-page > h1 {
+  grid-column: span 3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box.css {
+  grid-column: span 1;
+}
+
+.box.html {
+  grid-column: span 2;
+}
+
+.box.javascript {
+  grid-column: span 2;
+}
+
+.box.php {
+  grid-column: span 1;
+}
+
+.box.python {
+  grid-column: span 3;
+}
+
+.box.git {
+  grid-column: span 1;
+}
+
+.box.sqlite {
+  grid-column: span 2;
+}
+
+.box {
+  background-color: $background-color;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  color: $font-color;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-page {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    grid-column: span 3;
+  }
+
+  .landing-page > h1 {
+    grid-column: span 3;
+  }
+
+  .box.css {
+    grid-column: span 3;
+  }
+
+  .box.html {
+    grid-column: span 3;
+  }
+
+  .box.javascript {
+    grid-column: span 3;
+  }
+
+  .box.php {
+    grid-column: span 3;
+  }
+
+  .box.python {
+    grid-column: span 3;
+  }
+
+  .box.git {
+    grid-column: span 3;
+  }
+
+  .box.sqlite {
+    grid-column: span 3;
+  }
+}

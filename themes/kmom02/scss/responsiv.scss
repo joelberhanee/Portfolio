@@ -82,5 +82,10 @@
 
   li a {
     width: 80px;
+    color: $font-color;
+  }
+  
+  .screenshot-image {
+    max-width: 100%;
   }
 }
