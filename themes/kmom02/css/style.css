@@ -6870,7 +6870,9 @@ img {
   gap: 20px;
   padding: 20px;
 }
-.landing-page-analysis h1, .landing-page-analysis h2, .landing-page-analysis h3 {
+.landing-page-analysis h1,
+.landing-page-analysis h2,
+.landing-page-analysis h3 {
   grid-column: span 3;
   font-size: 2rem;
   color: #000;
@@ -6888,7 +6890,8 @@ img {
   color: #000;
   text-align: justify;
 }
-.landing-page-analysis ul, .landing-page-analysis li {
+.landing-page-analysis ul,
+.landing-page-analysis li {
   grid-column: span 3;
   line-height: 1.2;
   font-size: 1rem;
