@@ -4,9 +4,9 @@ Description: This is our analysis page.
 Template: analysis
 techs: 
     - name: Colors
-      class: colors
+      class: 01_colors
     - name: Load
-      class: load
+      class: 02_load
     - name: DesignPrinciples
       class: design_principles
 
