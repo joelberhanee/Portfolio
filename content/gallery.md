@@ -8,83 +8,83 @@ Galleri
 
 <div class="gallery-page">
     <div class="image-container">
-        <a href="%base_url%/assets/img/premium_photo-1675756583740-38edc636fe7d.avif" target="_blank">
+        <a href="%base_url%/assets/ciamge/premium_photo-1675756583740-38edc636fe7d.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/premium_photo-1675756583740-38edc636fe7d.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/premium_photo-1675756583740-38edc636fe7d.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/premium_photo-1675756583740-38edc636fe7d.avif?w=375&q=70" alt="Snö">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/premium_photo-1675756583740-38edc636fe7d.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/premium_photo-1675756583740-38edc636fe7d.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/premium_photo-1675756583740-38edc636fe7d.avif?w=375&q=70" alt="Snö">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1580173368206-d8dc5ba0ae4d.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1580173368206-d8dc5ba0ae4d.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1580173368206-d8dc5ba0ae4d.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1580173368206-d8dc5ba0ae4d.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1580173368206-d8dc5ba0ae4d.avif?w=375&q=70" alt="Sjö">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1580173368206-d8dc5ba0ae4d.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1580173368206-d8dc5ba0ae4d.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1580173368206-d8dc5ba0ae4d.avif?w=375&q=70" alt="Sjö">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1612712190432-41852d0187c9.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1612712190432-41852d0187c9.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1612712190432-41852d0187c9.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1612712190432-41852d0187c9.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1612712190432-41852d0187c9.avif?w=375&q=70" alt="Gång">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1612712190432-41852d0187c9.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1612712190432-41852d0187c9.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1612712190432-41852d0187c9.avif?w=375&q=70" alt="Gång">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1731818757552-741a479bb938.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1731818757552-741a479bb938.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1731818757552-741a479bb938.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1731818757552-741a479bb938.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1731818757552-741a479bb938.avif?w=375&q=70" alt="Moln">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1731818757552-741a479bb938.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1731818757552-741a479bb938.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1731818757552-741a479bb938.avif?w=375&q=70" alt="Moln">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1732861448032-fc1b14365bff.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1732861448032-fc1b14365bff.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1732861448032-fc1b14365bff.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1732861448032-fc1b14365bff.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1732861448032-fc1b14365bff.avif?w=375&q=70" alt="Skog">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1732861448032-fc1b14365bff.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1732861448032-fc1b14365bff.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1732861448032-fc1b14365bff.avif?w=375&q=70" alt="Skog">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1728137264593-257cfa1c5b4e.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1728137264593-257cfa1c5b4e.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1728137264593-257cfa1c5b4e.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1728137264593-257cfa1c5b4e.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1596223917481-06f9c7a18071.avif?w=375&q=70" alt="Vulkan">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1728137264593-257cfa1c5b4e.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1728137264593-257cfa1c5b4e.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1596223917481-06f9c7a18071.avif?w=375&q=70" alt="Vulkan">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1732466385485-b82de0e28ec5.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1732466385485-b82de0e28ec5.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1732466385485-b82de0e28ec5.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1732466385485-b82de0e28ec5.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1732466385485-b82de0e28ec5.avif?w=375&q=70" alt="Kaktus">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1732466385485-b82de0e28ec5.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1732466385485-b82de0e28ec5.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1732466385485-b82de0e28ec5.avif?w=375&q=70" alt="Kaktus">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1732201715630-dabf1f0143d1.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1732201715630-dabf1f0143d1.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1732201715630-dabf1f0143d1.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1732201715630-dabf1f0143d1.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1732201715630-dabf1f0143d1.avif?w=375&q=70" alt="Solnedgång">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1732201715630-dabf1f0143d1.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1732201715630-dabf1f0143d1.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1732201715630-dabf1f0143d1.avif?w=375&q=70" alt="Solnedgång">
             </picture>
         </a>
     </div>
     <div class="image-container">
-        <a href="%base_url%/assets/img/photo-1575268788548-49aa333ec2ba.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1575268788548-49aa333ec2ba.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/img/photo-1575268788548-49aa333ec2ba.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/img/photo-1575268788548-49aa333ec2ba.avif?w=667&q=70">
-                <img src="%base_url%/assets/img/photo-1575268788548-49aa333ec2ba.avif?w=375&q=70" alt="Hav">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1575268788548-49aa333ec2ba.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1575268788548-49aa333ec2ba.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1575268788548-49aa333ec2ba.avif?w=375&q=70" alt="Hav">
             </picture>
         </a>
     </div>
