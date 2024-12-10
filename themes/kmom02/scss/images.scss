@@ -5,7 +5,7 @@ img {
 }
   
 .logo {
-  width: 200px;
+  width: 150px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -15,4 +15,12 @@ img {
   max-width: 50%;
   height: auto;
   border-radius: 8px;
+}
+
+.profile-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1em auto;
+  display: block;
 }

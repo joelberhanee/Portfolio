@@ -2,15 +2,31 @@ li a {
   background-color: $background-color;
   color: $font-color;
   padding: 0.5em 1em;
-  text-decoration: none;
   border-radius: 4px;
-  border: 1px $font-color solid;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  
+  border-bottom: solid 2px $font-color;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: color 0.3s ease;
+
   &:hover {
+    color: $primary-color;
+    border-bottom: 0;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
     background-color: $primary-color;
-    color: $link-hover-color;
-    transform: scale(1.05);
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
   }
 }
 
@@ -24,4 +40,10 @@ li a {
 
 .social i {
   color: $font-color;
+  transition: transform 0.3s ease; /* Lägg till transition för transform på ikonen */
 }
+
+.social i:hover {
+  transform: scale(1.5); /* Gör ikonen 10% större vid hover */
+}
+

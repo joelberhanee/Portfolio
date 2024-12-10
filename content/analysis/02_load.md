@@ -21,30 +21,35 @@ Jag dokumenterade mätvärdena i ett Google Kalkylark.
 
 
 # Resultat
-### Nike
+## Nike
 ![Nike](../assets/img/nike.png){.screenshot-image}
 
-### SVT
+## SVT
 ![SVT](../assets/img/svt.png){.screenshot-image}
 
-### SonyMusic
+## SonyMusic
 ![Sony](../assets/img/sony.png){.screenshot-image}
 
-
+### Mätvärden
 <div class="responsive-iframe-container">
-  <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6O4UUXlJ-tH29kgF5kY_YLo1Y-8pHY55B886C6sR4aYyKHZYHffLO6y9YwinQABVuwknlYkWeySFU/pubhtml?widget=true&amp;headers=false"></iframe>
+  <iframe 
+    class="responsive-iframe" 
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6O4UUXlJ-tH29kgF5kY_YLo1Y-8pHY55B886C6sR4aYyKHZYHffLO6y9YwinQABVuwknlYkWeySFU/pubhtml?widget=true&amp;headers=false" 
+    title="Landing Page Analysis">
+  </iframe>
 </div>
+
 
 
 # Analys
 
-### Nike.se
+## Nike.se
 Nike sidan har bra prestanda på datorn med FCP på 1,2 sekunder och LCP på 3,4 sekunder vilket är hållbara siffror för en webbshop.  Mobilsidan har däremot problem med sin prestanda… FCP på 5,1 sekunder och LCP på 16,5 sekunder. Mobilversionen underpresterar och har tider långt över vad som är rekommenderat. TBT på 15 450 ms visar att mobilsidan har mycket blockerad javascript vilket resulterar långsamhet. Att hitta bättre sätt att hantera bilder samt videos kan vara möjliga förbättringsåtgärder. Nike har däremot en mobilapp som de kanske fokuserar mer på för mobilanvändare.
 
-### SVT.se
+## SVT.se
 Prestandan för svt.se var bra både dator och mobil. Dataversionen hade mycket bra siffror, en FCP som låg på 0,8 sekunder och en LCP på 1,1 sekunder. Mobilversionen hade en FCP som låg på 3,6 sekunder och LCP på 5,5 sekunder. Här fanns det förbättringspotential men siffrorna är fortfarande acceptabla och fungerande. Genom att minska skript som blockeras och optimera hur resurser laddas kan användarupplevelsen förbättras.
 
-### SonyMusic.com
+## SonyMusic.com
 Prestandan på datorversionen hos Sony Music är bra. Den har en FCP på 0,6 sekunder och LCP på 2,2 sekunder. Mobilasidan har FCP på 2,7 sekunder och LCP 11.1 sekunder. Godkänt men även denna sida kan bli bättre för mobilenheter. Genom att minska storleken på stora resurser och bilder kan sidan förbättras. CLS är på 0,057 vilket är bra men kan förbättras för att slippa att sidan ändrar layout vid laddning.
 
 ### Förbättringsområden

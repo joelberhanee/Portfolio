@@ -7,6 +7,8 @@
 
 .footer p {
   color: $font-color;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid $font-color;
 }
 
 .footer a {

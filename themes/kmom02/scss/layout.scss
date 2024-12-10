@@ -16,6 +16,19 @@ body {
   box-shadow: 0 4px 8px $shadow-color;
   background-color: $main-color;
   color: $font-color;
+  border: 2px solid;
+  position: relative;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    border-color: $primary-color;
+    transform: translateY(-5px);
+  }
+
+  &::before {
+    position: absolute;
+    border-radius: $border-radius;
+  }
 }
 
 .main h1,

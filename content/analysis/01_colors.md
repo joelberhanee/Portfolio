@@ -14,12 +14,12 @@ Webbsidorna som har valts ut för att analyseras är Fotbollskanalen.se, Sportbl
 För att kunna utföra denna analys har jag använt mig av verktygen Colorzilla, Color Adobe och Typsnitssfinder. Verktygen användes för att få fram färgpaletterna och identifiera typsnitten på sidorna. För att få en större förståelse av designen har jag observerat färgscheman som har använts i sidorna ifall det har varit akromatiskt, monokromatiskt eller komplementärt. När det gäller typsnitten har jag undersökt rubriker och underrubriker, H1-H3 samt brödtexten. Jag har tagit en skärmdump av första sidan på alla tre webbplatser för att kunna ge en bild av deras design. Sedan har jag analyserat färgerna och typsnitten kopplade till vad sidorna sänder ut för image.
 
 # Resultat
-### Fotbollskanalen.se
+## Fotbollskanalen.se
 ![Fotbollskanalen](../assets/img/fotbollskanalen.png){.screenshot-image}
 
 Blandat schema med inslag av komplementära färger (grönt, vitt och grått). Grönt och vitt dominerar. 
 
-#### Typsnitt & färger
+### Typsnitt & färger
 * H1: QuattroNewsUltraBold, LatoBlack, Helvetica
 * H2-H3: QuattroNewsBold, LatoBold, Helvetica
 * Brödtext: LatoRegular, Helvetica
@@ -31,11 +31,11 @@ Blandat schema med inslag av komplementära färger (grönt, vitt och grått). G
 </tr>
 </table>
 
-### Sportbladet.se
+## Sportbladet.se
 ![Sportbladet](../assets/img/sportbladet.png){.screenshot-image}
 
 Monokromatiskt färgschema. Webbplatsen använder flera rosa nyanser och en röda strimman i menyn. 
-#### Typsnitt & färger
+### Typsnitt & färger
 * H1-H3: Verdana, Arial, Helvetica, sans-serif
 * Brödtext: Arial, Helvetica, Verdana, Geneva, sans-serif
 * <table style="border-spacing: 4px; border-collapse: separate">
@@ -47,13 +47,13 @@ Monokromatiskt färgschema. Webbplatsen använder flera rosa nyanser och en röd
 </tr>
 </table>
 
-### Sportexpressen.se
+## Sportexpressen.se
 
 ![Sportexpressen](../assets/img/sportexpressen.png){.screenshot-image}
 
 Komplementärt färgschema (vit, röd och blå). Vit bakgrund med  blå och röda detaljer.
 
-#### Typsnitt & färger
+### Typsnitt & färger
 * H1-H3: Siri, Inter, sans-serif
 * Brödtext: Inter, sans-serif
 * <table style="border-spacing: 4px; border-collapse: separate">

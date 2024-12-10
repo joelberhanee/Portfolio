@@ -8,11 +8,11 @@ Galleri
 
 <div class="gallery-page">
     <div class="image-container">
-        <a href="%base_url%/assets/ciamge/premium_photo-1675756583740-38edc636fe7d.avif" target="_blank">
+        <a href="%base_url%/assets/cimage/photo-1560851691-ebb64b584d3d.avif" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/premium_photo-1675756583740-38edc636fe7d.avif?w=960&q=90">
-                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/premium_photo-1675756583740-38edc636fe7d.avif?w=667&q=70">
-                <img src="%base_url%/assets/cimage/premium_photo-1675756583740-38edc636fe7d.avif?w=375&q=70" alt="Snö">
+                <source media="(min-width: 668px)" srcset="%base_url%/assets/cimage/photo-1560851691-ebb64b584d3d.avif?w=960&q=90">
+                <source media="(min-width: 376px)" srcset="%base_url%/assets/cimage/photo-1560851691-ebb64b584d3d.avif?w=667&q=70">
+                <img src="%base_url%/assets/cimage/photo-1560851691-ebb64b584d3d.avif?w=375&q=70" alt="Snö">
             </picture>
         </a>
     </div>
@@ -97,6 +97,7 @@ Galleri
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
+    allowfullscreen 
+    loading="lazy">
   </iframe>
 </div>
